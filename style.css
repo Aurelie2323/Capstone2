@@ -1,0 +1,170 @@
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+.container.photo {
+    padding: 0;
+    max-width: 600px;
+}
+
+/* Inside your CSS file */
+
+.small-image {
+    max-width: 100%; 
+    height: auto; /
+    margin-bottom: 20px; 
+}
+
+/* For the small-image class */
+.small-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* For all images within the container */
+.container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the image */
+  margin-bottom: 20px;
+}
+
+
+
+/* pic.4 adjustments */
+.photo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.extra-small-image {
+  max-width: 10%; /* Adjust the percentage to make the image smaller */
+  height: auto;
+  margin-right: 10px; /* Add some spacing between the image and text */
+}
+.text-right {
+  flex: 1; /* Fill the remaining space */
+}
+
+@media (min-width: 300px) {
+  .extra-small-image {
+    max-width: 15%; /* Adjust the image width for larger screens */
+  }
+
+}
+
+.extra-small-image {
+  max-width: 20%; /* Adjust the percentage to make the image smaller */
+  height: auto;
+  margin-right: 20px; /* Add some spacing between the image and text */
+}
+
+.photo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+/* Adjust the image width for different screen sizes */
+.extra-small-image {
+  max-width: 20%; /* Adjust the percentage to make the image smaller */
+  height: auto;
+  margin-right: 20px; /* Add spacing between the image and text */
+}
+
+.text-right {
+  flex: 1; /* Fill the remaining space */
+  padding-left: 20px; /* Add padding between the image and text */
+}
+
+
+
+figure {
+    background-color: lightblue;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+
+/*ADD HERE*/
+
+
+figcaption {
+    margin: 0;
+    font-size: 0.9rem;
+    color: 3333;
+}
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+    
+    /*ADD HERE*/
+
+}
+
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 780px) {
+
+    /*ADD HERE*/
+
+}
+
+
+@media (min-width: 681px) {
+    .headline {
+        text-align: center;
+    }
+
+    @media (min-width: 780px) {
+    .headline {
+        text-align: center;
+    }
+
+
+@media (min-width: 681px) {
+    .headline {
+        text-align: center;
+        font-size: 2em; /* Adjust the font size as needed */
+    }
+
+    /* Other tablet/desktop styles */
+}
+
+/* Desktop-only Styles */
+@media (min-width: 780px) {
+    .headline {
+        text-align: center;
+        font-size: 2.5em; /* Adjust the font size as needed */
+    }
+
+@media (min-width: 780px) {
+  .dek {
+  text-align: center;
+}
+
+@media (min-width: 780px) {
+  .subdek {
+  text-align: center;
+  }
+
+
+
+
+
+
+
+
